@@ -1,209 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="header">
-        <div class="header__wrapper">
-            <a href="" class="header__logo logo"><img class="logo__img" src="./img/logo.svg" alt=""></a>
-            <button class="header__btn btn"><img class="btn__image" src="./menu-icon.svg" alt="burger-menu"></button>
-        </div>
+      <div class="header__wrapper">
+        <a href="" class="header__logo logo"
+          ><img class="logo__img" src="./img/logo.svg" alt=""
+        /></a>
+        <button class="header__btn btn">
+          <img class="btn__image" src="./menu-icon.svg" alt="burger-menu" />
+        </button>
+      </div>
     </header>
 
     <main>
-        <section class="intro">
-            <h1 class="intro__title">Экскурсии на квадрациклах в Геленджике</h1>
-            <p class="intro__text">приезжайте за новыми впечатлениями и эмоциями</p>
-            <a href="#" class="intro__link">Подобрать маршрут<span><img src="./img/link-arrow.svg" alt=""></span></a>
-            <div class="intro__scroll scroll">
-                <!--<p><span>.</span><span>.</span><span>.</span>scroll</p>!-->
-                <label class="scroll__main"><input type="radio" class="scroll__main--inp"><span></span></label>
-                <label class="scroll__next"><input type="radio" class="scroll__next--inp"><span></span></label>
-                <label class="scroll__last"><input type="radio" class="scroll__last--inp"><span></span></label>
-                <p class="scroll__text">scroll</p>
+      <section class="intro">
+        <h1 class="intro__title">Экскурсии на квадрациклах в Геленджике</h1>
+        <p class="intro__text">приезжайте за новыми впечатлениями и эмоциями</p>
+        <a href="#" class="intro__link"
+          >Подобрать маршрут<span
+            ><img src="./img/link-arrow.svg" alt="" /></span
+        ></a>
+        <div class="intro__scroll scroll">
+          <!--<p><span>.</span><span>.</span><span>.</span>scroll</p>!-->
+          <label class="scroll__main"
+            ><input type="radio" class="scroll__main--inp" /><span></span
+          ></label>
+          <label class="scroll__next"
+            ><input type="radio" class="scroll__next--inp" /><span></span
+          ></label>
+          <label class="scroll__last"
+            ><input type="radio" class="scroll__last--inp" /><span></span
+          ></label>
+          <p class="scroll__text">scroll</p>
+        </div>
+      </section>
+      <section class="about">
+        <ul class="about__list">
+          <li class="about__item">
+            <img class="about__img" src="" alt="" />
+            <h3 class="about__title">Увлекательные экскурсии</h3>
+            <p class="about__text">
+              Маршруты от лесных дорожек до полного бездорожья!
+            </p>
+          </li>
+          <li class="about__item">
+            <img class="about__img" src="" alt="" />
+            <h3 class="about__title">Надежная техника</h3>
+            <p class="about__text">18 квадроциклов всех японских брендов</p>
+          </li>
+          <li class="about__item">
+            <img class="about__img" src="" alt="" />
+            <h3 class="about__title">Экипировка бесплатно</h3>
+            <p class="about__text">Необходимая экипировка выдается бесплатно</p>
+          </li>
+          <li class="about__item">
+            <img сlass="about__img" src="" alt="" />
+            <h3 class="about__title">Опытные инструктора</h3>
+            <p class="about__text">
+              Обеспечат полную безопасность Вашего отдыха
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="routes">
+        <h2 class="routes__title">Наши маршруты</h2>
+        <ul class="routes__list">
+          <li class="routes__element">
+            <h3 class="routes__element--title">Базовый</h3>
+            <p class="routes__element--price">от 4000 р</p>
+            <ul class="routes__info-list information">
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Время в пути:<span class="bold-font">1,5 - 2 часа</span>
+                </p>
+              </li>
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Расстояние:<span class="bold-font">20-25 км</span>
+                </p>
+              </li>
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Сложность:<span class="bold-font">5***</span>
+                </p>
+              </li>
+            </ul>
+            <div class="routes__waybill">
+              <h4 class="routes__waybill--title">Маршрут</h4>
+              <img src="" alt="route-img" class="routes__waybill--img" />
             </div>
-        </section>
-        <section class="about">
-            <ul class="about__list">
-                <li class="about__item">
-                    <img class="about__img" src="" alt="">
-                    <h3 class="about__title">Увлекательные экскурсии</h3>
-                    <p class="about__text">Маршруты от лесных дорожек до полного бездорожья!</p>
-                </li>
-                <li class="about__item">
-                    <img class="about__img" src="" alt="">
-                    <h3 class="about__title">Надежная техника</h3>
-                    <p class="about__text">18 квадроциклов всех японских брендов</p>
-                </li>
-                <li class="about__item">
-                    <img class="about__img" src="" alt="">
-                    <h3 class="about__title">Экипировка бесплатно</h3>
-                    <p class="about__text">Необходимая экипировка выдается бесплатно</p>
-                </li>
-                <li class="about__item">
-                    <img сlass="about__img" src="" alt="">
-                    <h3 class="about__title">Опытные инструктора</h3>
-                    <p class="about__text">Обеспечат полную безопасность Вашего отдыха</p>
-                </li>
+            <ol class="routes__route route">
+              <li class="route__text">Смотровая</li>
+              <li class="route__text">Родник</li>
+              <li class="route__text">Камень Джигита</li>
+              <li class="route__text">Адербиевка</li>
+              <li class="route__text">Гора Нексис</li>
+              <li class="route__text">Грозовые ворота</li>
+              <li class="route__text">Шашлыки</li>
+              <li class="route__text">Цыгельский водопад</li>
+              <li class="route__text">Форсаж</li>
+            </ol>
+            <div class="routes__links">
+              <a class="routes__more" href=""></a>
+              <a href="routes__book"></a>
+            </div>
+            <ul class="routes__gallary gallary">
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
             </ul>
-        </section>
-        <section class="routes">
-            <h2 class="routes__title">Наши маршруты</h2>
-            <ul class="routes__list">
-                <li class="routes__element">
-                    <h3 class="routes__element--title">Базовый</h3>
-                    <p class="routes__element--price">от 4000 р</p>
-                    <ul class="routes__info-list information">
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Время в пути:<span class="bold-font">1,5 - 2 часа</span></p>
-                        </li>
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Расстояние:<span class="bold-font">20-25 км</span></p>
-                        </li>
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Сложность:<span class="bold-font">5***</span></p>
-                        </li>
-                    </ul>
-                    <div class="routes__waybill">
-                        <h4 class="routes__waybill--title">Маршрут</h4>
-                        <img src="" alt="route-img" class="routes__waybill--img">
-                    </div>
-                    <ol class="routes__route route">
-                        <li class="route__text">Смотровая</li>
-                        <li class="route__text">Родник</li>
-                        <li class="route__text">Камень Джигита</li>
-                        <li class="route__text">Адербиевка</li>
-                        <li class="route__text">Гора Нексис</li>
-                        <li class="route__text">Грозовые ворота</li>
-                        <li class="route__text">Шашлыки</li>
-                        <li class="route__text">Цыгельский водопад</li>
-                        <li class="route__text">Форсаж</li>
-                    </ol>
-                    <div class="routes__links">
-                        <a class="routes__links--more" href=""></a>
-                        <a href="routes__links--book"></a>
-                    </div>
-                    <ul class="routes__gallary gallary">
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                    </ul>
-                    <div class="routes__scroll scroll scroll--black">
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <p class="scroll__text">scroll</p>
-                    </div>
-                </li>
-                <li class="routes__element">
-                    <h3 class="routes__element--title">Расширенный</h3>
-                    <p class="routes__element--price">от 16000 р</p>
-                    <ul class="routes__info-list information">
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Время в пути:<span class="bold-font">6 - 8 часа</span></p>
-                        </li>
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Расстояние:<span class="bold-font">60-70 км</span></p>
-                        </li>
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Сложность:<span class="bold-font">5***</span></p>
-                        </li>
-                    </ul>
-                    <div class="routes__waybill">
-                        <h4 class="routes__waybill--title">Маршрут</h4>
-                        <img src="" alt="route-img" class="routes__waybill--img">
-                    </div>
-                    <ol class="routes__route route">
-                        <li class="route__text">Смотровая</li>
-                        <li class="route__text">Родник</li>
-                        <li class="route__text">Камень Джигита</li>
-                        <li class="route__text">Адербиевка</li>
-                        <li class="route__text">Гора Нексис</li>
-                        <li class="route__text">Грозовые ворота</li>
-                        <li class="route__text">Шашлыки</li>
-                        <li class="route__text">Цыгельский водопад</li>
-                        <li class="route__text">Форсаж</li>
-                    </ol>
-                    <div class="routes__links">
-                        <a class="routes__links--more" href=""></a>
-                        <a href="routes__links--book"></a>
-                    </div>
-                    <ul class="routes__gallary gallary">
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                    </ul>
-                    <div class="routes__scroll scroll scroll--black">
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <p class="scroll__text">scroll</p>
-                    </div>
-                </li>
-                <li class="routes__element">
-                    <h3 class="routes__element--title">EXPERIENCE</h3>
-                    <p class="routes__element--price">от 7000 р</p>
-                    <ul class="routes__info-list information">
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Время в пути:<span class="bold-font">4 часа</span></p>
-                        </li>
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Расстояние:<span class="bold-font">40 - 50 км</span></p>
-                        </li>
-                        <li class="information__element">
-                            <img src="" alt="" class="information__img">
-                            <p class="information__text">Сложность:<span class="bold-font">5***</span></p>
-                        </li>
-                    </ul>
-                    <div class="routes__waybill">
-                        <h4 class="routes__waybill--title">Маршрут</h4>
-                        <img src="" alt="route-img" class="routes__waybill--img">
-                    </div>
-                    <ol class="routes__route route">
-                        <li class="route__text">Форсаж</li>
-                        <li class="route__text">Голубая бухта</li>
-                        <li class="route__text">Заброшенная Тур База</li>
-                        <li class="route__text">Сухогруз Рио</li>
-                        <li class="route__text">Форсаж</li>
-                    </ol>
-                    <div class="routes__links">
-                        <a class="routes__links--more" href=""></a>
-                        <a href="routes__links--book"></a>
-                    </div>
-                    <ul class="routes__gallary gallary">
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                        <li class="gallary__element"><img src="" alt="" class="gallary__img"></li>
-                    </ul>
-                    <div class="routes__scroll scroll scroll--black">
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <label class="scroll__label"><input type="radio" class="scroll__input"><span></span></label>
-                        <p class="scroll__text">scroll</p>
-                    </div>
-                </li>
+            <div class="routes__scroll scroll scroll--black">
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <p class="scroll__text">scroll</p>
+            </div>
+          </li>
+          <li class="routes__element">
+            <h3 class="routes__element--title">Расширенный</h3>
+            <p class="routes__element--price">от 16000 р</p>
+            <ul class="routes__info-list information">
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Время в пути:<span class="bold-font">6 - 8 часа</span>
+                </p>
+              </li>
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Расстояние:<span class="bold-font">60-70 км</span>
+                </p>
+              </li>
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Сложность:<span class="bold-font">5***</span>
+                </p>
+              </li>
             </ul>
-        </section>
-        <section class="test">
-            <h2 class="test__title">Затрудняетесь выбрать маршрут?</h2>
-            <p class="test__text">Пройдите тест и мы поможем вам подобрать оптимальную под вас экскурсию</p>
-            <a href="#" class="test__link">Начать тест</a>
-        </section>
+            <div class="routes__waybill">
+              <h4 class="routes__waybill--title">Маршрут</h4>
+              <img src="" alt="route-img" class="routes__waybill--img" />
+            </div>
+            <ol class="routes__route route">
+              <li class="route__text">Смотровая</li>
+              <li class="route__text">Родник</li>
+              <li class="route__text">Камень Джигита</li>
+              <li class="route__text">Адербиевка</li>
+              <li class="route__text">Гора Нексис</li>
+              <li class="route__text">Грозовые ворота</li>
+              <li class="route__text">Шашлыки</li>
+              <li class="route__text">Цыгельский водопад</li>
+              <li class="route__text">Форсаж</li>
+            </ol>
+            <div class="routes__links">
+              <a class="routes__more" href=""></a>
+              <a href="routes__book"></a>
+            </div>
+            <ul class="routes__gallary gallary">
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+            </ul>
+            <div class="routes__scroll scroll scroll--black">
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <p class="scroll__text">scroll</p>
+            </div>
+          </li>
+          <li class="routes__element">
+            <h3 class="routes__element--title">EXPERIENCE</h3>
+            <p class="routes__element--price">от 7000 р</p>
+            <ul class="routes__info-list information">
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Время в пути:<span class="bold-font">4 часа</span>
+                </p>
+              </li>
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Расстояние:<span class="bold-font">40 - 50 км</span>
+                </p>
+              </li>
+              <li class="information__element">
+                <img src="" alt="" class="information__img" />
+                <p class="information__text">
+                  Сложность:<span class="bold-font">5***</span>
+                </p>
+              </li>
+            </ul>
+            <div class="routes__waybill">
+              <h4 class="routes__waybill--title">Маршрут</h4>
+              <img src="" alt="route-img" class="routes__waybill--img" />
+            </div>
+            <ol class="routes__route route">
+              <li class="route__text">Форсаж</li>
+              <li class="route__text">Голубая бухта</li>
+              <li class="route__text">Заброшенная Тур База</li>
+              <li class="route__text">Сухогруз Рио</li>
+              <li class="route__text">Форсаж</li>
+            </ol>
+            <div class="routes__links">
+              <a class="routes__more" href=""></a>
+              <a href="routes__book"></a>
+            </div>
+            <ul class="routes__gallary gallary">
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+              <li class="gallary__element">
+                <img src="" alt="" class="gallary__img" />
+              </li>
+            </ul>
+            <div class="routes__scroll scroll scroll--black">
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <label class="scroll__label"
+                ><input type="radio" class="scroll__input" /><span></span
+              ></label>
+              <p class="scroll__text">scroll</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="test">
+        <div class="test__wrapper">
+          <h2 class="test__title">Затрудняетесь выбрать маршрут?</h2>
+          <p class="test__text">
+            Пройдите тест и мы поможем вам подобрать оптимальную под вас
+            экскурсию
+          </p>
+          <a href="#" class="test__link">Начать тест</a>
+        </div>
+      </section>
     </main>
-</body>
-<!--details/checbox/button -->
+  </body>
+  <!--details/checbox/button -->
 </html>
