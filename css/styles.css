@@ -1,0 +1,11 @@
+:root {
+    --text-color: #121214;
+    --btn-color: #037E8C;
+    --background: #E5E5E5;
+}
+html {
+    font-size: 62.5%;
+  }
+body {
+    font-family: "Montserrat", sans-serif;
+}
