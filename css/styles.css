@@ -1,11 +1,48 @@
 :root {
-    --text-color: #121214;
-    --btn-color: #037E8C;
-    --background: #E5E5E5;
+  --text-color: #121214;
+  --btn-color: #037e8c;
+  --background: #e5e5e5;
+  --white-on-black: #ffffff;
 }
-html {
-    font-size: 62.5%;
-  }
+
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.header {
+  position: absolute;
+  min-width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 64px;
+  margin-left: 20px;
+  margin-top: 9px;
+}
+
+.header__btn {
+  outline: none;
+  border: 0;
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  margin-top: 11px;
+}
+
+.intro {
+  background-image: url("/img/header-intro-img.png");
+  padding-top: 150px;
+}
+
+.intro__title {
+  text-align: left;
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 123.5%;
+  color: var(--white-on-black);
+  margin-left: 3rem;
 }
