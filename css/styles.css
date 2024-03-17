@@ -1,48 +1,156 @@
 :root {
   --text-color: #121214;
   --btn-color: #037e8c;
-  --background: #e5e5e5;
+  --background: #E5E5E5;
   --white-on-black: #ffffff;
+  --routes-backround: #F4F4F4;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
 }
 
 .header {
   position: absolute;
   min-width: 100%;
+  
 }
 
-.header__wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 320px;
-  height: 64px;
-  margin-left: 20px;
-  margin-top: 9px;
-}
 
 .header__btn {
   outline: none;
   border: 0;
   background: transparent;
-  width: 20px;
-  height: 20px;
-  margin-top: 11px;
 }
 
 .intro {
-  background-image: url("/img/header-intro-img.png");
+  background-image: url("../img/header-intro-img.png");
   padding-top: 150px;
 }
 
 .intro__title {
-  text-align: left;
+  text-align: center;
   font-size: 3.6rem;
   font-weight: bold;
   line-height: 123.5%;
   color: var(--white-on-black);
-  margin-left: 3rem;
 }
+
+.intro__text {
+  color: var(--white-on-black);
+  text-align: left;
+  line-height: 130%;
+  font-size: 1.6rem;
+}
+
+.intro__link{
+  text-decoration: none;
+  background-color: var(--btn-color);
+  border-radius: 9px;
+}
+
+.scroll__text{
+  color: var(--white-on-black);
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+.about{
+  background-color: var(--background);
+}
+
+.about__title{
+  font-size: 1.6rem;
+  line-height: 120%;
+  color: var(--text-color);
+}
+
+.about__text{
+  font-size: 1.4rem;
+  line-height: 120%;
+  color: var(--text-color);
+}
+
+.routes{
+  background-color: var(--routes-backround);
+}
+
+.routes__title{
+  text-align:center;
+  color: var(--text-color);
+  font-weight: bold;
+  line-height: 130%;
+  font-size: 2.4rem;
+}
+
+.routes__subtitle{
+  font-weight:bold;
+  line-height: 108.7%;
+  font-size: 2.4rem;
+  color: var(--text-color);
+}
+
+.routes__price{
+  color: var(--text-color);
+  line-height: 108.7%;
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+.information__text{
+  color: var(--text-color);
+  line-height: 108.7%;
+  font-size:1.4rem;
+}
+
+.bold-font{
+  font-weight: bold;
+}
+
+.waybills__title{
+  color: var(--text-color);
+  line-height: 130%;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.route__text{
+  color: var(--text-color);
+  line-height: 160%;
+  font-size: 1.4rem;
+}
+
+.routes__links{
+  text-align:center;
+}
+.routes__more{
+  color: #037E8C;
+  line-height: 130%;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #037E8C;
+  border-radius: 9px;
+}
+
+.routes__book{
+  color: var(--white-on-black);
+  line-height: 130%;
+  font-size: 1.4rem;
+  background-color: #037E8C;
+  border-radius:9px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
