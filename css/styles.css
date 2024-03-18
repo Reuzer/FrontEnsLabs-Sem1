@@ -60,9 +60,6 @@ body {
   height: 1px;
   background-color: var(--white-on-black);
 }
-.scroll__input{
-  color: var(--white-on-black);
-}
 
 .about{
   background-color: var(--background);
@@ -169,9 +166,6 @@ body {
   background-color: var(--text-color);
 }
 
-.scroll__input--black{
-  background-color: var(--text-color);
-}
 
 
 
