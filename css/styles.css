@@ -55,6 +55,15 @@ body {
   font-weight: lighter;
 }
 
+.scroll__line{
+  width: 54px;
+  height: 1px;
+  background-color: var(--white-on-black);
+}
+.scroll__input{
+  color: var(--white-on-black);
+}
+
 .about{
   background-color: var(--background);
 }
@@ -73,6 +82,10 @@ body {
 
 .routes{
   background-color: var(--routes-backround);
+}
+
+.routes__element{
+  background-image: url("../img/routes_background.svg");
 }
 
 .routes__title{
@@ -141,6 +154,25 @@ body {
   border-radius:9px;
   font-weight: bold;
 }
+
+.gallary__img{
+  width: 186.85px;
+  height: 186.85px;
+  border-radius: 11px;
+}
+
+.scroll__text--black{
+  color: var(--text-color);
+}
+
+.scroll__line--black{
+  background-color: var(--text-color);
+}
+
+.scroll__input--black{
+  background-color: var(--text-color);
+}
+
 
 
 
