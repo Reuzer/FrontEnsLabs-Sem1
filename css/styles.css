@@ -166,6 +166,35 @@ body {
   background-color: var(--text-color);
 }
 
+.test{
+  background-color: var(--text-color);
+  background-image: url("../img/test_back.svg");
+}
+
+.test__title{
+  color: var(--white-on-black);
+  line-height: 130%;
+  font-size: 2.4rem;
+}
+
+.test__text{
+  color: var(--white-on-black);
+  line-height: 120%;
+  font-size: 1.6rem;
+  font-weight:medium;
+}
+
+.test__link{
+  color: var(--white-on-black);
+  background-color: var(--btn-color);
+  line-height: 130%;
+  font-size: 1.4rem;
+  border-radius: 9px;
+}
+
+.test__wrapper{
+  text-align: center;
+}
 
 
 
